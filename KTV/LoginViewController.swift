@@ -8,7 +8,6 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
     @IBOutlet var imageView: UIImageView!
     @IBOutlet var loginButton: UIButton!
     override func viewDidLoad() {
@@ -24,9 +23,9 @@ class LoginViewController: UIViewController {
      
     
 
-    
-    override var supportedInterfaceOrientations: UIInterfaceOrientationMask{
-        .portrait
+    @IBAction func buttonDidTap(_ sender: Any) {
     }
+    
+  
 }
 

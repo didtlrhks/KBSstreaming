@@ -28,7 +28,7 @@
                                     <color key="titleColor" name="main-brown"/>
                                 </state>
                                 <connections>
-                                    <action selector="buttonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zFK-3f-44A"/>
+                                    <action selector="buttonDidTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7KX-kg-J4x"/>
                                     <segue destination="ega-PY-w1l" kind="show" id="eTH-q2-saz"/>
                                 </connections>
                             </button>
@@ -49,6 +49,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="imageView" destination="DKl-V4-hOE" id="pIO-1x-ZtG"/>
                         <outlet property="loginButton" destination="5Lf-d3-Y0T" id="jZZ-UJ-oxc"/>
                     </connections>
                 </viewController>
